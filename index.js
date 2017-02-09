@@ -4,7 +4,6 @@ var fs = require('fs');
 var handlebars = require('express3-handlebars')
   .create({ defaultLayout:'main' });
 var gm = require('gm');
-var Canvas = require('canvas');
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
